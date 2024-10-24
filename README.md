@@ -1,2 +1,4 @@
 # University-study-documents
-Documents for four years of college, etc
+该文件用于存放大学四年文件,主要是担心本地误删除从而彻底丢失文件
+
+加入的成员上传前记得创建自己的分支,不要将文件推送至主分支main下,其他分支的命名为名字即可
