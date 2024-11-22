@@ -1,0 +1,48 @@
+A51 MACRO ASSEMBLER  AT89C51                                                              03/27/2024 22:57:59 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.02c
+OBJECT MODULE PLACED IN AT89C51.OBJ
+ASSEMBLER INVOKED BY: D:\Keil5\C51\BIN\A51.EXE AT89C51.asm SET(SMALL) DEBUG EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1             ORG 0000H
+0000 0200F0            2             LJMP Main
+00F0                   3             ORG 00F0H
+00F0                   4     Main:
+00F0 7F00              5             MOV R7, #0
+00F2                   6     Loop:
+00F2 7E00              7             MOV R6, #0
+00F4 DEFE              8             DJNZ R6, $
+00F6 DEFE              9             DJNZ R6, $
+00F8 DEFE             10             DJNZ R6, $
+00FA DEFE             11             DJNZ R6, $
+00FC DFF4             12             DJNZ R7, Loop 
+00FE B290             13             CPL P1.0 
+0100 B291             14             CPL P1.1
+0102 B292             15             CPL P1.2  
+0104 B293             16             CPL P1.3 
+0106 B294             17             CPL P1.4  
+0108 B295             18             CPL P1.5 
+010A B296             19             CPL P1.6  
+010C B297             20             CPL P1.7  
+010E 80E0             21             SJMP Main
+                      22             END
+A51 MACRO ASSEMBLER  AT89C51                                                              03/27/2024 22:57:59 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+LOOP . . . . . . .  C ADDR   00F2H   A   
+MAIN . . . . . . .  C ADDR   00F0H   A   
+P1 . . . . . . . .  D ADDR   0090H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

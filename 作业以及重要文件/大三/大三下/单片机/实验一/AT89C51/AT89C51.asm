@@ -1,0 +1,22 @@
+	ORG 0000H
+	LJMP Main
+	ORG 00F0H
+Main:
+ 	MOV R7, #0
+Loop:
+	MOV R6, #0
+	DJNZ R6, $
+	DJNZ R6, $
+	DJNZ R6, $
+	DJNZ R6, $
+	DJNZ R7, Loop 
+	CPL P1.0 
+	CPL P1.1
+	CPL P1.2  
+	CPL P1.3 
+	CPL P1.4  
+	CPL P1.5 
+	CPL P1.6  
+	CPL P1.7  
+	SJMP Main
+	END

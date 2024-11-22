@@ -1,0 +1,73 @@
+BL51 BANKED LINKER/LOCATER V6.22                                                        03/27/2024  22:57:59  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22, INVOKED BY:
+D:\KEIL5\C51\BIN\BL51.EXE AT89C51.obj, think.obj TO AT89C51
+
+
+INPUT MODULES INCLUDED:
+  AT89C51.obj (AT89C51)
+  think.obj (THINK)
+
+
+LINK MAP OF MODULE:  AT89C51 (AT89C51)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0110H     ABSOLUTE     
+* OVERLAP * CODE    0000H     00F9H     ABSOLUTE     
+
+
+
+SYMBOL TABLE OF MODULE:  AT89C51 (AT89C51)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        AT89C51
+  C:00F2H         SYMBOL        LOOP
+  C:00F0H         SYMBOL        MAIN
+  D:0090H         SYMBOL        P1
+  C:0000H         LINE#         2
+  C:00F0H         LINE#         5
+  C:00F2H         LINE#         7
+  C:00F4H         LINE#         8
+  C:00F6H         LINE#         9
+  C:00F8H         LINE#         10
+  C:00FAH         LINE#         11
+  C:00FCH         LINE#         12
+  C:00FEH         LINE#         13
+  C:0100H         LINE#         14
+  C:0102H         LINE#         15
+  C:0104H         LINE#         16
+  C:0106H         LINE#         17
+  C:0108H         LINE#         18
+  C:010AH         LINE#         19
+  C:010CH         LINE#         20
+  C:010EH         LINE#         21
+  -------         ENDMOD        AT89C51
+
+  -------         MODULE        THINK
+  C:00F2H         SYMBOL        MAIN
+  C:00F0H         LINE#         2
+  C:00F2H         LINE#         4
+  C:00F4H         LINE#         5
+  C:00F5H         LINE#         6
+BL51 BANKED LINKER/LOCATER V6.22                                                      03/27/2024  22:57:59  PAGE 2
+
+
+  C:00F8H         LINE#         7
+  -------         ENDMOD        THINK
+
+*** WARNING L5: CODE SPACE MEMORY OVERLAP
+    FROM:    0000H
+    TO:      010FH
+
+Program Size: data=8.0 xdata=0 code=521
+LINK/LOCATE RUN COMPLETE.  1 WARNING(S),  0 ERROR(S)

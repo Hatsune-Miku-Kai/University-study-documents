@@ -1,0 +1,4 @@
+".\Objects\STARTUP.obj",
+".\Objects\shiyan.obj" 
+TO ".\Objects\shiyan" 
+PRINT(".\Listings\shiyan.m51") RAMSIZE(256) 
