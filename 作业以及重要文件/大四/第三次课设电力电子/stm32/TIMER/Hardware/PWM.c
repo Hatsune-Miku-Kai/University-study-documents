@@ -8,7 +8,7 @@ void PWM_Init()
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB,ENABLE);
 
 	GPIO_InitTypeDef GPIO_InitStructure;
-	GPIO_InitStructure.GPIO_Mode=GPIO_Mode_AF_PP;
+	GPIO_InitStructure.GPIO_Mode=GPIO_Mode_AF_PP;//推挽输出
 	GPIO_InitStructure.GPIO_Pin=GPIO_Pin_8|GPIO_Pin_9;//通道三,通道四
 	GPIO_InitStructure.GPIO_Speed=GPIO_Speed_50MHz;
 	GPIO_Init(GPIOB,&GPIO_InitStructure);
@@ -27,16 +27,13 @@ void PWM_Init()
 	TIM_OCInitTypeDef TIM_OCInitstructure;
 	TIM_OCStructInit(&TIM_OCInitstructure);
 	TIM_OCInitstructure.TIM_OCMode=TIM_OCMode_PWM1;//配置输出模式为PWM1
-	TIM_OCInitstructure.TIM_OCPolarity=TIM_OCPolarity_High;//配置REF高电平有效,即原始输出
+	TIM_OCInitstructure.TIM_OCPolarity=TIM_OCPolarity_High;//配置REF高电平有效,即原始输出,代表不翻转
 	TIM_OCInitstructure.TIM_OutputState=TIM_OutputState_Enable;//设置输出有效
-	TIM_OCInitstructure.TIM_Pulse=0;//CCR,占空比的值,默认为0,电机不转
+	TIM_OCInitstructure.TIM_Pulse=0;//CCR,占空比的值
 	TIM_OC3Init(TIM4,&TIM_OCInitstructure);
 	TIM_OC4Init(TIM4,&TIM_OCInitstructure);
 
 	TIM_Cmd(TIM4,ENABLE);//启动定时器
-
-	
-
 }
 
 
