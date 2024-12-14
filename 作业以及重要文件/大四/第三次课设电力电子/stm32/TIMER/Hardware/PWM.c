@@ -48,5 +48,5 @@ void PWM_SetCompare3(uint16_t Compare)//调节占空比,compare是目标占空�
 void PWM_SetCompare4(uint16_t Compare)//调节占空比,compare是目标占空比
 {
 
-	TIM_SetCompare4(TIM4,Compare);//让蜂鸣器输出不同声音
+	TIM_SetCompare4(TIM4,Compare);//
 }
