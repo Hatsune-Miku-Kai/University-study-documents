@@ -1,0 +1,549 @@
+
+>>[2024-12-23 12:57:34] Done.
+Converted license Microsoft.Windows.48.X19-98841_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\02133d1c-c4ff-4cba-84cb-a5f295f12eb3.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+>>[2024-12-23 12:57:38] Activating Windows(R), Professional edition (4de7cb65-cdf1-4de9-8ae8-e3cce27b9f2c) ...
+Error: 0xC004C003 The activation server determined the specified product key is blocked
+
+Windows(R), Professional edition:
+    Windows is in Notification mode
+
+
+>>[2024-12-23 12:57:38] 
+>>[2024-12-23 12:57:38] ReArmApp ErrorCode = 0x00000000
+>>[2024-12-23 12:57:39] ReArmsku ErrorCode = 0x00000000
+>>[2024-12-23 12:57:40] RefreshLicenseStatus Windows ErrorCode = 0x00000000
+>>[2024-12-23 12:57:45] Activating Windows(R), Professional edition (4de7cb65-cdf1-4de9-8ae8-e3cce27b9f2c) ...
+Error: 0xC004C003 The activation server determined the specified product key is blocked
+
+Windows(R), Professional edition:
+    Windows is in Notification mode
+
+
+>>[2024-12-23 12:57:46] [SC] ControlService 失败 1062:
+
+服务尚未启动。
+
+[SC] ChangeServiceConfig 成功
+
+>>[2024-12-23 12:57:47] _CheckWindowsInfo_Digital Windows SKUID = 48
+>>[2024-12-23 12:57:47] _Define_Windows_Edition_KMS38 = Professional
+>>[2024-12-23 12:57:47] _CheckWindowsInfo  ID = 2de67392-b7a7-462a-b1ca-108dd189f588
+3f1afc82-f8ac-4f6c-8005-1d233e606eee
+73111121-5638-40f6-bc11-f1d7b0d64300
+82bbc092-bc50-4e16-8e18-b74fc486aec3
+ca7df2e3-5ea0-47b8-9ac1-b1be4d8edd69
+e0c42288-980c-4788-a014-c080d2e1926e
+e4db50ea-bda1-4566-b047-0ca50abc6f07
+ec868e65-fadf-4759-b23e-93fe37f2cc29
+
+>>[2024-12-23 12:57:47] _CheckWindowsInfo  ID = Windows(R), Professional edition
+Windows(R), ProfessionalEducation edition
+Windows(R), Enterprise edition
+Windows(R), ProfessionalWorkstation edition
+Windows(R), CloudEdition edition
+Windows(R), Education edition
+Windows(R), ServerRdsh edition
+Windows(R), ServerRdsh edition
+
+>>[2024-12-23 12:57:47] _CheckWindowsInfo  WindowsVL = 1 Build 22631
+>>[2024-12-23 12:57:47] _CheckWindowsInfo WindowsEdition = Professional
+>>[2024-12-23 12:57:47] _CheckWindowsInfo WindowsEditionWMI = Professional
+>>[2024-12-23 12:57:47] _CheckWindowsInfo WindowsEdition = Professional
+>>[2024-12-23 12:57:47] _CheckWindowsInfo WindowsGVLK = W269N-WFGWX-YVC9B-4J6C9-T83GX
+>>[2024-12-23 12:57:47] _Define_Windows_Key_KMS38(Edition) = Professional
+>>[2024-12-23 12:57:47] _Define_Windows_Key_KMS38 = W269N-WFGWX-YVC9B-4J6C9-T83GX
+>>[2024-12-23 12:57:47] _DigitalActivate ARM = 0
+>>[2024-12-23 12:57:47]         START_TYPE         : 3   DEMAND_START
+
+>>[2024-12-23 12:57:47] 
+>>[2024-12-23 12:57:47] _DigitalActivate InstallWindowsKey ErrorCode = 0
+
+>>[2024-12-23 12:57:48] HKLM64\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform\55c92734-d682-4d71-983e-d6ec3f16059f Del = 2
+>>[2024-12-23 12:57:48] HKU64\S-1-5-20\Software\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform\55c92734-d682-4d71-983e-d6ec3f16059f Del = 0
+>>[2024-12-23 12:57:48] KeyManagementServiceName Del = 0
+>>[2024-12-23 12:57:48] KeyManagementServicePort Del = 0
+>>[2024-12-23 12:57:48] _DigitalActivate IDList: 
+2de67392-b7a7-462a-b1ca-108dd189f588
+>>[2024-12-23 12:57:48] 
+>>[2024-12-23 12:57:48] KeyManagementServiceName 127.0.0.2 Add = 0
+>>[2024-12-23 12:57:48] KeyManagementServicePort 1688 Add = 0
+>>[2024-12-23 12:57:48] _DigitalActivate Copy gatherosstate.exe = 1
+>>[2024-12-23 12:57:48] _DigitalActivate Copy slc.dll = 1
+>>[2024-12-23 12:57:48] _DigitalActivate Add WIN7RTM,Channel,Kernel-ProductInfo,Security-SPP-GenuineLocalStatus = 1,1,1,1
+>>[2024-12-23 12:57:51] _DigitalActivate GenuineTicket.xml = 1
+>>[2024-12-23 12:57:51] _DigitalActivate Copy GenuineTicket.xml = 1  C:\ProgramData\Microsoft\Windows\ClipSVC\GenuineTicket\GenuineTicket.xml
+>>[2024-12-23 12:57:59] Done.
+Converted license Microsoft.Windows.48.X19-98795_8wekyb3d8bbwe and stored at C:\ProgramData\Microsoft\Windows\ClipSvc\Install\Migration\be987a49-8743-4f44-8ebe-0dfdbbe797bd.xml.
+Successfully converted 1 licenses from genuine authorization tickets on disk.
+Done.
+
+>>[2024-12-23 12:58:05] Activating Windows(R), Professional edition (2de67392-b7a7-462a-b1ca-108dd189f588) ...
+Error: 0xC004F074 The Software Licensing Service reported that the computer could not be activated. No Key Management Service (KMS) could be contacted. Please see the Application Event Log for additional information.
+
+Windows(R), Professional edition:
+    Volume activation will expire 2038/1/19 11:12:05
+
+
+>>[2024-12-23 12:58:06] [SC] ControlService 失败 1062:
+
+服务尚未启动。
+
+[SC] ChangeServiceConfig 成功
+
+>>[2024-12-23 12:58:06] _KMS38Protect IDList: 
+2de67392-b7a7-462a-b1ca-108dd189f588
+>>[2024-12-23 12:58:06] _KMS38Protect TakeOwnerShip = 1(Reg =2,0,0,0)
+>>[2024-12-23 12:58:06] 卸载自动续期......
+>>[2024-12-23 12:58:06] 
+没有与指定标准相匹配的规则。
+
+
+>>[2024-12-23 12:58:06] HKLM64\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\SppExtComObj.exe Del = 0
+>>[2024-12-23 12:58:06] HKLM64\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\sppsvc.exe Del = 0
+>>[2024-12-23 12:58:06] HKLM64\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\osppsvc.exe Del = 0
+>>[2024-12-23 12:58:06] 已成功处理 0 个文件; 处理 1 个文件时失败
+
+>>[2024-12-23 12:58:06] 
+没有与指定标准相匹配的规则。
+
+
+>>[2024-12-23 12:58:06] [SC] EnumQueryServicesStatus:OpenService 失败 1060:
+
+指定的服务未安装。
+
+
+>>[2024-12-23 12:58:08] [SC] EnumQueryServicesStatus:OpenService 失败 1060:
+
+指定的服务未安装。
+
+
+>>[2024-12-23 12:58:08] Check Renewal = 1
+>>[2024-12-23 12:58:09] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:58:09] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:58:09] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:58:09] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:58:09] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:58:09] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:58:09] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:58:09] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:58:09] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:58:10] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:58:10] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:58:10] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:58:10] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:58:10] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:58:10] _CleanKmsReg 1,2,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:58:10] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:58:10] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:58:11] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:58:11] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:58:11] Del = 0  C:\WINDOWS\System32\HEUKMSRenewal.tmp
+>>[2024-12-23 12:58:11] [SC] EnumQueryServicesStatus:OpenService 失败 1060:
+
+指定的服务未安装。
+
+
+>>[2024-12-23 12:58:11] [SC] EnumQueryServicesStatus:OpenService 失败 1060:
+
+指定的服务未安装。
+
+
+>>[2024-12-23 12:58:11] _C2R_R2V  Begining...
+>>[2024-12-23 12:58:12] _C2R_R2V  Office ClickToRun Service 未检测到
+>>[2024-12-23 12:58:12] _MSI_R2V  Begining...
+>>[2024-12-23 12:58:12] Office2010 _OfficeExistCheck OfficeExist = 0 C2R =  MSI = 0 PRIds = 
+
+>>[2024-12-23 12:58:12] _MSI_R2V Office 2010 = Null
+>>[2024-12-23 12:58:12] Office2013 _OfficeExistCheck  MSI = 0
+
+>>[2024-12-23 12:58:12] Office2016 _OfficeExistCheck  MSI = 0
+
+>>[2024-12-23 12:58:12]  _OfficeUWPExist OfficeExist = 
+
+>>[2024-12-23 12:58:12] Office2016 _OfficeExistCheck OfficeExist = 0 C2R =  MSI = 0 PRIds = 
+
+>>[2024-12-23 12:58:12] Office2019 _OfficeExistCheck OfficeExist = 0 C2R =  MSI = 0 PRIds = 
+
+>>[2024-12-23 12:58:12] _MSI_R2V Office 2013 = Nul
+>>[2024-12-23 12:58:12] _MSI_R2V Office 2016 = Nul
+>>[2024-12-23 12:58:12] _MSI_R2V Office 2019 = Nul 
+>>[2024-12-23 12:58:12] 确定。
+
+
+>>[2024-12-23 12:58:12] 
+SERVICE_NAME: sppsvc 
+        TYPE               : 10  WIN32_OWN_PROCESS  
+        STATE              : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+>>[2024-12-23 12:58:12] Software Protection 服务正在停止.
+Software Protection 服务已成功停止。
+
+
+>>[2024-12-23 12:58:15] 
+SERVICE_NAME: sppsvc 
+        TYPE               : 10  WIN32_OWN_PROCESS  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+>>[2024-12-23 12:58:15] [SC] EnumQueryServicesStatus:OpenService 失败 1060:
+
+指定的服务未安装。
+
+
+>>[2024-12-23 12:58:16] [SC] EnumQueryServicesStatus:OpenService 失败 1060:
+
+指定的服务未安装。
+
+
+>>[2024-12-23 12:58:16] _StartKMSServer KMSMode = 1
+>>[2024-12-23 12:58:16] Add NoGenTicket = 1
+>>[2024-12-23 12:58:16] Copy SECOPatcher = 1    C:\WINDOWS\system32
+>>[2024-12-23 12:58:16] 发现 SID: C:\WINDOWS\System32\SECOPatcher.dll。
+已成功处理 1 个文件; 处理 0 个文件时失败
+已处理的文件: C:\WINDOWS\System32\SECOPatcher.dll
+已成功处理 1 个文件; 处理 0 个文件时失败
+
+>>[2024-12-23 12:58:16] Add Debugger = 1
+>>[2024-12-23 12:58:16] Starting KMS Server...
+>>[2024-12-23 12:58:18] Listening on [::]:1688
+Listening on 0.0.0.0:1688
+vlmcsd 1113, built 2020-03-28 17:29:45 UTC started successfully
+
+>>[2024-12-23 12:58:18] SECOPatcher.dll = 1
+>>[2024-12-23 12:58:18] 
+SERVICE_NAME: sppsvc 
+        TYPE               : 10  WIN32_OWN_PROCESS  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+>>[2024-12-23 12:58:18] Software Protection 服务正在启动 .
+Software Protection 服务已经启动成功。
+
+
+>>[2024-12-23 12:58:21] 
+SERVICE_NAME: sppsvc 
+        TYPE               : 10  WIN32_OWN_PROCESS  
+        STATE              : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+>>[2024-12-23 12:58:21] [SC] EnumQueryServicesStatus:OpenService 失败 1060:
+
+指定的服务未安装。
+
+
+>>[2024-12-23 12:58:22] [SC] EnumQueryServicesStatus:OpenService 失败 1060:
+
+指定的服务未安装。
+
+
+>>[2024-12-23 12:58:22] Office2021 _OfficeExistCheck OfficeExist = 0 C2R =  MSI = 0 PRIds = 
+
+>>[2024-12-23 12:58:22] Office2021 Install path： 
+>>[2024-12-23 12:58:22] Office2021 License path： 
+>>[2024-12-23 12:58:22] Office2019 _OfficeExistCheck OfficeExist = 0 C2R =  MSI = 0 PRIds = 
+
+>>[2024-12-23 12:58:22] Office2019 Install path： 
+>>[2024-12-23 12:58:22] Office2019 License path： 
+>>[2024-12-23 12:58:22] Office2016 _OfficeExistCheck OfficeExist = 0 C2R =  MSI = 0 PRIds = 
+
+>>[2024-12-23 12:58:22] Office2016 Install path： 
+>>[2024-12-23 12:58:22] Office2016 License path： 
+>>[2024-12-23 12:58:22] Office2013 _OfficeExistCheck OfficeExist = 0 C2R =  MSI = 0 PRIds = 
+
+>>[2024-12-23 12:58:22] Office2013 Install path： 
+>>[2024-12-23 12:58:22] Office2013 License path： 
+>>[2024-12-23 12:58:22] Office2010 _OfficeExistCheck OfficeExist = 0 C2R =  MSI = 0 PRIds = 
+
+>>[2024-12-23 12:58:22] Office2010 Install path： 
+>>[2024-12-23 12:58:22] Office2010 License path： 
+>>[2024-12-23 12:58:22]  _OfficeUWPExist OfficeExist = 
+
+>>[2024-12-23 12:58:22] Check Renewal = 错误: 系统找不到指定的文件。
+
+>>[2024-12-23 12:58:23] Check Renewal = 错误: 系统找不到指定的文件。
+
+>>[2024-12-23 12:58:23] Check Renewal = 0
+>>[2024-12-23 12:58:23] Check Renewal = 错误: 系统找不到指定的文件。
+
+>>[2024-12-23 12:58:24] Check Renewal = 错误: 系统找不到指定的文件。
+
+>>[2024-12-23 12:58:24] Check Renewal = 0
+>>[2024-12-23 12:58:24] HKLM64\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\SppExtComObj.exe Del = 1
+>>[2024-12-23 12:58:24] Del NoGenTicket = 1
+>>[2024-12-23 12:58:24] 已处理的文件: C:\WINDOWS\System32\SECOPatcher.dll
+已成功处理 1 个文件; 处理 0 个文件时失败
+
+>>[2024-12-23 12:58:24] _DelSECOPatcher Del SECOPatcher.dll = 1
+>>[2024-12-23 12:58:24] 
+已删除 1 规则。
+确定。
+
+
+>>[2024-12-23 12:58:44] HEU KMS Activator 24.5.0 激活Windows=1 激活Office=1 数字/KMS38=1 OEM激活=1 Office自动转VL=1 在线KMS服务器=0 KMS自动续期=1 生成日志=1 
+【CLICK KMS_ActWin......】
+ Act Option = 1 OS Arch = X64 Build Number = 22631 EditionId = Professional
+
+>>[2024-12-23 12:58:45] _CheckWindowsLicensestatus Name = Windows(R), Professional edition,  GracePeriodRemaining = 6875894
+>>[2024-12-23 12:58:45] _CheckWindowsLicensestatus LS = 2
+>>[2024-12-23 12:59:09] HEU KMS Activator 24.5.0 激活Windows=1 激活Office=1 数字/KMS38=1 OEM激活=1 Office自动转VL=1 在线KMS服务器=0 KMS自动续期=1 生成日志=1 
+【CLICK KMS_ActOff......】
+ Act Option = 1 OS Arch = X64 Build Number = 22631 EditionId = Professional
+
+>>[2024-12-23 12:59:09] [SC] EnumQueryServicesStatus:OpenService 失败 1060:
+
+指定的服务未安装。
+
+
+>>[2024-12-23 12:59:09] [SC] EnumQueryServicesStatus:OpenService 失败 1060:
+
+指定的服务未安装。
+
+
+>>[2024-12-23 12:59:09] _C2R_R2V  Begining...
+>>[2024-12-23 12:59:10] _C2R_R2V  Office ClickToRun Service 未检测到
+>>[2024-12-23 12:59:10] _MSI_R2V  Begining...
+>>[2024-12-23 12:59:10] Office2010 _OfficeExistCheck OfficeExist = 0 C2R =  MSI = 0 PRIds = 
+
+>>[2024-12-23 12:59:10] _MSI_R2V Office 2010 = Null
+>>[2024-12-23 12:59:10] Office2013 _OfficeExistCheck  MSI = 0
+
+>>[2024-12-23 12:59:10] Office2016 _OfficeExistCheck  MSI = 0
+
+>>[2024-12-23 12:59:10]  _OfficeUWPExist OfficeExist = 
+
+>>[2024-12-23 12:59:10] Office2016 _OfficeExistCheck OfficeExist = 0 C2R =  MSI = 0 PRIds = 
+
+>>[2024-12-23 12:59:10] Office2019 _OfficeExistCheck OfficeExist = 0 C2R =  MSI = 0 PRIds = 
+
+>>[2024-12-23 12:59:10] _MSI_R2V Office 2013 = Nul
+>>[2024-12-23 12:59:10] _MSI_R2V Office 2016 = Nul
+>>[2024-12-23 12:59:10] _MSI_R2V Office 2019 = Nul 
+>>[2024-12-23 12:59:10] 卸载自动续期......
+>>[2024-12-23 12:59:10] 
+没有与指定标准相匹配的规则。
+
+
+>>[2024-12-23 12:59:10] HKLM64\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\SppExtComObj.exe Del = 0
+>>[2024-12-23 12:59:10] HKLM64\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\sppsvc.exe Del = 0
+>>[2024-12-23 12:59:10] HKLM64\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\osppsvc.exe Del = 0
+>>[2024-12-23 12:59:10] 已成功处理 0 个文件; 处理 1 个文件时失败
+
+>>[2024-12-23 12:59:10] 
+没有与指定标准相匹配的规则。
+
+
+>>[2024-12-23 12:59:10] [SC] EnumQueryServicesStatus:OpenService 失败 1060:
+
+指定的服务未安装。
+
+
+>>[2024-12-23 12:59:11] [SC] EnumQueryServicesStatus:OpenService 失败 1060:
+
+指定的服务未安装。
+
+
+>>[2024-12-23 12:59:11] Check Renewal = 错误: 系统找不到指定的文件。
+
+>>[2024-12-23 12:59:12] Check Renewal = 错误: 系统找不到指定的文件。
+
+>>[2024-12-23 12:59:12] Check Renewal = 0
+>>[2024-12-23 12:59:12] HKLM64\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\SppExtComObj.exe Del = 0
+>>[2024-12-23 12:59:12] Del NoGenTicket = 0
+>>[2024-12-23 12:59:12] 已成功处理 0 个文件; 处理 1 个文件时失败
+
+>>[2024-12-23 12:59:12] _DelSECOPatcher Del SECOPatcher.dll = 0
+>>[2024-12-23 12:59:12] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:59:12] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:59:13] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:59:13] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:59:13] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:59:13] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:59:13] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:59:13] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:59:13] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:59:14] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:59:14] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:59:14] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:59:15] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:59:15] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:59:15] _CleanKmsReg 1,2,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:59:15] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:59:16] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:59:16] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:59:16] _CleanKmsReg 1,1,0,0,0,0,0,0,0,0
+>>[2024-12-23 12:59:16] Del = 0  C:\WINDOWS\System32\HEUKMSRenewal.tmp
+>>[2024-12-23 12:59:16] 确定。
+
+
+>>[2024-12-23 12:59:16] 
+SERVICE_NAME: sppsvc 
+        TYPE               : 10  WIN32_OWN_PROCESS  
+        STATE              : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+>>[2024-12-23 12:59:17] Software Protection 服务正在停止.
+Software Protection 服务已成功停止。
+
+
+>>[2024-12-23 12:59:19] 
+SERVICE_NAME: sppsvc 
+        TYPE               : 10  WIN32_OWN_PROCESS  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+>>[2024-12-23 12:59:20] [SC] EnumQueryServicesStatus:OpenService 失败 1060:
+
+指定的服务未安装。
+
+
+>>[2024-12-23 12:59:20] [SC] EnumQueryServicesStatus:OpenService 失败 1060:
+
+指定的服务未安装。
+
+
+>>[2024-12-23 12:59:20] _StartKMSServer KMSMode = 1
+>>[2024-12-23 12:59:20] Add NoGenTicket = 1
+>>[2024-12-23 12:59:20] Copy SECOPatcher = 1    C:\WINDOWS\system32
+>>[2024-12-23 12:59:20] 发现 SID: C:\WINDOWS\System32\SECOPatcher.dll。
+已成功处理 1 个文件; 处理 0 个文件时失败
+已处理的文件: C:\WINDOWS\System32\SECOPatcher.dll
+已成功处理 1 个文件; 处理 0 个文件时失败
+
+>>[2024-12-23 12:59:20] Add Debugger = 1
+>>[2024-12-23 12:59:20] Starting KMS Server...
+>>[2024-12-23 12:59:22] Listening on [::]:1688
+Listening on 0.0.0.0:1688
+vlmcsd 1113, built 2020-03-28 17:29:45 UTC started successfully
+
+>>[2024-12-23 12:59:22] SECOPatcher.dll = 1
+>>[2024-12-23 12:59:22] 
+SERVICE_NAME: sppsvc 
+        TYPE               : 10  WIN32_OWN_PROCESS  
+        STATE              : 1  STOPPED 
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+>>[2024-12-23 12:59:23] Software Protection 服务正在启动 .
+Software Protection 服务已经启动成功。
+
+
+>>[2024-12-23 12:59:25] 
+SERVICE_NAME: sppsvc 
+        TYPE               : 10  WIN32_OWN_PROCESS  
+        STATE              : 4  RUNNING 
+                                (STOPPABLE, NOT_PAUSABLE, ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+>>[2024-12-23 12:59:25] [SC] EnumQueryServicesStatus:OpenService 失败 1060:
+
+指定的服务未安装。
+
+
+>>[2024-12-23 12:59:25] Caption=Microsoft Windows 11 专业版
+
+>>[2024-12-23 12:59:26] [SC] StartService: OpenService 失败 1060:
+
+指定的服务未安装。
+
+
+>>[2024-12-23 12:59:26] Office2021 _OfficeExistCheck OfficeExist = 0 C2R =  MSI = 0 PRIds = 
+
+>>[2024-12-23 12:59:26] Office2021 Install path： 
+>>[2024-12-23 12:59:26] Office2021 License path： 
+>>[2024-12-23 12:59:26] Office2019 _OfficeExistCheck OfficeExist = 0 C2R =  MSI = 0 PRIds = 
+
+>>[2024-12-23 12:59:26] Office2019 Install path： 
+>>[2024-12-23 12:59:26] Office2019 License path： 
+>>[2024-12-23 12:59:26] Office2016 _OfficeExistCheck OfficeExist = 0 C2R =  MSI = 0 PRIds = 
+
+>>[2024-12-23 12:59:26] Office2016 Install path： 
+>>[2024-12-23 12:59:26] Office2016 License path： 
+>>[2024-12-23 12:59:26] Office2013 _OfficeExistCheck OfficeExist = 0 C2R =  MSI = 0 PRIds = 
+
+>>[2024-12-23 12:59:26] Office2013 Install path： 
+>>[2024-12-23 12:59:26] Office2013 License path： 
+>>[2024-12-23 12:59:26] Office2010 _OfficeExistCheck OfficeExist = 0 C2R =  MSI = 0 PRIds = 
+
+>>[2024-12-23 12:59:26] Office2010 Install path： 
+>>[2024-12-23 12:59:26] Office2010 License path： 
+>>[2024-12-23 12:59:26]  _OfficeUWPExist OfficeExist = 
+
+>>[2024-12-23 12:59:26] Check Renewal = 错误: 系统找不到指定的文件。
+
+>>[2024-12-23 12:59:27] Check Renewal = 错误: 系统找不到指定的文件。
+
+>>[2024-12-23 12:59:27] Check Renewal = 0
+>>[2024-12-23 12:59:27] Check Renewal = 错误: 系统找不到指定的文件。
+
+>>[2024-12-23 12:59:28] Check Renewal = 错误: 系统找不到指定的文件。
+
+>>[2024-12-23 12:59:28] Check Renewal = 0
+>>[2024-12-23 12:59:28] HKLM64\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\SppExtComObj.exe Del = 1
+>>[2024-12-23 12:59:28] Del NoGenTicket = 1
+>>[2024-12-23 12:59:28] 已处理的文件: C:\WINDOWS\System32\SECOPatcher.dll
+已成功处理 1 个文件; 处理 0 个文件时失败
+
+>>[2024-12-23 12:59:28] _DelSECOPatcher Del SECOPatcher.dll = 1
+>>[2024-12-23 12:59:28] 
+已删除 1 规则。
+确定。
+
+
+>>[2024-12-23 12:59:39] _CheckSlic : OEMID
+Un-Listed
+>>[2024-12-23 12:59:39] _CheckSlic : SLICOA
+Un-Listed
+>>[2024-12-23 12:59:40] _CheckOEMKey OEMKey = 
+>>[2024-12-23 12:59:46] HEU KMS Activator 24.5.0 激活Windows=1 激活Office=1 数字/KMS38=1 OEM激活=1 Office自动转VL=1 在线KMS服务器=0 KMS自动续期=1 生成日志=1 
+【CLICK Check_Act......】
+ Act Option = 1 OS Arch = X64 Build Number = 22631 EditionId = Professional
+
+>>[2024-12-23 12:59:54] HEU KMS Activator 24.5.0 激活Windows=1 激活Office=1 数字/KMS38=1 OEM激活=1 Office自动转VL=1 在线KMS服务器=0 KMS自动续期=1 生成日志=1 
+【CLICK Check_Act......】
+ Act Option = 1 OS Arch = X64 Build Number = 22631 EditionId = Professional
+
+>>[2024-12-23 12:59:54] Office2010 _OfficeExistCheck OfficeExist = 0 C2R =  MSI = 0 PRIds = 
+
+>>[2024-12-23 12:59:54] Office2013 _OfficeExistCheck OfficeExist = 0 C2R =  MSI = 0 PRIds = 
+
+>>[2024-12-23 12:59:54] Office2016 _OfficeExistCheck OfficeExist = 0 C2R =  MSI = 0 PRIds = 
+
+>>[2024-12-23 12:59:54] Office2019 _OfficeExistCheck OfficeExist = 0 C2R =  MSI = 0 PRIds = 
+
+>>[2024-12-23 12:59:54] Office2021 _OfficeExistCheck OfficeExist = 0 C2R =  MSI = 0 PRIds = 
+
+>>[2024-12-23 12:59:54]  _OfficeUWPExist OfficeExist = 
+
+>>[2024-12-23 13:00:02] HEU KMS Activator 24.5.0 激活Windows=1 激活Office=1 数字/KMS38=1 OEM激活=1 Office自动转VL=1 在线KMS服务器=0 KMS自动续期=1 生成日志=1 
+【CLICK Check_Act......】
+ Act Option = 1 OS Arch = X64 Build Number = 22631 EditionId = Professional
