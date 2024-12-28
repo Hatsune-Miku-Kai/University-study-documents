@@ -1,0 +1,431 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u6240\u6709\u7528\u6237\u4FE1\u606F\u754C\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|solutionrelative:\u6240\u6709\u7528\u6237\u4FE1\u606F\u754C\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u6240\u6709\u7528\u6237\u4FE1\u606F\u754C\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|solutionrelative:\u6240\u6709\u7528\u6237\u4FE1\u606F\u754C\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u7BA1\u7406\u5458\u754C\u9762\u7A97\u4F53.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|solutionrelative:\u7BA1\u7406\u5458\u754C\u9762\u7A97\u4F53.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u767B\u5F55\u7A97\u4F53.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|solutionrelative:\u767B\u5F55\u7A97\u4F53.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u7BA1\u7406\u5458\u754C\u9762\u7A97\u4F53.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|solutionrelative:\u7BA1\u7406\u5458\u754C\u9762\u7A97\u4F53.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|c:\\users\\administrator\\desktop\\\u4EF2\u607A\\university-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u5220\u9664\u76D1\u6D4B\u70B9\u4FE1\u606F.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|solutionrelative:\u5220\u9664\u76D1\u6D4B\u70B9\u4FE1\u606F.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u5220\u9664\u76D1\u6D4B\u70B9\u4FE1\u606F.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|solutionrelative:\u5220\u9664\u76D1\u6D4B\u70B9\u4FE1\u606F.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u7528\u6237\u7BA1\u7406\u754C\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|solutionrelative:\u7528\u6237\u7BA1\u7406\u754C\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u7528\u6237\u7BA1\u7406\u754C\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|solutionrelative:\u7528\u6237\u7BA1\u7406\u754C\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u67E5\u770B\u76D1\u6D4B\u70B9\u4FE1\u606F.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|solutionrelative:\u67E5\u770B\u76D1\u6D4B\u70B9\u4FE1\u606F.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u767B\u5F55\u7A97\u4F53.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|solutionrelative:\u767B\u5F55\u7A97\u4F53.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u7528\u6237\u754C\u9762\u7A97\u4F53.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|solutionrelative:\u7528\u6237\u754C\u9762\u7A97\u4F53.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u5386\u53F2\u6570\u636E\u7BA1\u7406\u754C\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|solutionrelative:\u5386\u53F2\u6570\u636E\u7BA1\u7406\u754C\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u67E5\u770B\u76D1\u6D4B\u70B9\u4FE1\u606F.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|solutionrelative:\u67E5\u770B\u76D1\u6D4B\u70B9\u4FE1\u606F.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u5386\u53F2\u6570\u636E\u7BA1\u7406\u754C\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|solutionrelative:\u5386\u53F2\u6570\u636E\u7BA1\u7406\u754C\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u7528\u6237\u754C\u9762\u7A97\u4F53.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|solutionrelative:\u7528\u6237\u754C\u9762\u7A97\u4F53.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u76D1\u6D4B\u70B9\u7BA1\u7406\u754C\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|solutionrelative:\u76D1\u6D4B\u70B9\u7BA1\u7406\u754C\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u5220\u9664\u7528\u6237\u4FE1\u606F\u7A97\u4F53.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|solutionrelative:\u5220\u9664\u7528\u6237\u4FE1\u606F\u7A97\u4F53.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u4FEE\u6539\u76D1\u6D4B\u70B9\u4FE1\u606F\u754C\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|solutionrelative:\u4FEE\u6539\u76D1\u6D4B\u70B9\u4FE1\u606F\u754C\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u4FEE\u6539\u76D1\u6D4B\u70B9\u4FE1\u606F\u754C\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|solutionrelative:\u4FEE\u6539\u76D1\u6D4B\u70B9\u4FE1\u606F\u754C\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u6DFB\u52A0\u76D1\u6D4B\u70B9\u4FE1\u606F\u754C\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|solutionrelative:\u6DFB\u52A0\u76D1\u6D4B\u70B9\u4FE1\u606F\u754C\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u6DFB\u52A0\u76D1\u6D4B\u70B9\u4FE1\u606F\u754C\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|solutionrelative:\u6DFB\u52A0\u76D1\u6D4B\u70B9\u4FE1\u606F\u754C\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u5220\u9664\u7528\u6237\u4FE1\u606F\u7A97\u4F53.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|solutionrelative:\u5220\u9664\u7528\u6237\u4FE1\u606F\u7A97\u4F53.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u4FEE\u6539\u7528\u6237\u4FE1\u606F\u754C\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|solutionrelative:\u4FEE\u6539\u7528\u6237\u4FE1\u606F\u754C\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u521B\u5EFA\u7528\u6237\u754C\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|solutionrelative:\u521B\u5EFA\u7528\u6237\u754C\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u76D1\u6D4B\u70B9\u7BA1\u7406\u754C\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{356B72D4-D185-4C3C-B341-948FD70B3084}|database_design.csproj|solutionrelative:\u76D1\u6D4B\u70B9\u7BA1\u7406\u754C\u9762.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "\u7BA1\u7406\u5458\u754C\u9762\u7A97\u4F53.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u7BA1\u7406\u5458\u754C\u9762\u7A97\u4F53.cs",
+              "RelativeDocumentMoniker": "\u7BA1\u7406\u5458\u754C\u9762\u7A97\u4F53.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u7BA1\u7406\u5458\u754C\u9762\u7A97\u4F53.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "\u7BA1\u7406\u5458\u754C\u9762\u7A97\u4F53.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T08:06:15.734Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "\u7BA1\u7406\u5458\u754C\u9762\u7A97\u4F53.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u7BA1\u7406\u5458\u754C\u9762\u7A97\u4F53.cs",
+              "RelativeDocumentMoniker": "\u7BA1\u7406\u5458\u754C\u9762\u7A97\u4F53.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u7BA1\u7406\u5458\u754C\u9762\u7A97\u4F53.cs",
+              "RelativeToolTip": "\u7BA1\u7406\u5458\u754C\u9762\u7A97\u4F53.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAADwvx8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T08:06:15.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "\u6240\u6709\u7528\u6237\u4FE1\u606F\u754C\u9762.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u6240\u6709\u7528\u6237\u4FE1\u606F\u754C\u9762.cs",
+              "RelativeDocumentMoniker": "\u6240\u6709\u7528\u6237\u4FE1\u606F\u754C\u9762.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u6240\u6709\u7528\u6237\u4FE1\u606F\u754C\u9762.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "\u6240\u6709\u7528\u6237\u4FE1\u606F\u754C\u9762.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T08:06:15.741Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\u6240\u6709\u7528\u6237\u4FE1\u606F\u754C\u9762.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u6240\u6709\u7528\u6237\u4FE1\u606F\u754C\u9762.cs",
+              "RelativeDocumentMoniker": "\u6240\u6709\u7528\u6237\u4FE1\u606F\u754C\u9762.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u6240\u6709\u7528\u6237\u4FE1\u606F\u754C\u9762.cs",
+              "RelativeToolTip": "\u6240\u6709\u7528\u6237\u4FE1\u606F\u754C\u9762.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAUwBgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T08:06:15.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "\u767B\u5F55\u7A97\u4F53.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u767B\u5F55\u7A97\u4F53.cs",
+              "RelativeDocumentMoniker": "\u767B\u5F55\u7A97\u4F53.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u767B\u5F55\u7A97\u4F53.cs",
+              "RelativeToolTip": "\u767B\u5F55\u7A97\u4F53.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAcwEwAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T08:06:15.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "\u7528\u6237\u754C\u9762\u7A97\u4F53.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u7528\u6237\u754C\u9762\u7A97\u4F53.cs",
+              "RelativeDocumentMoniker": "\u7528\u6237\u754C\u9762\u7A97\u4F53.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u7528\u6237\u754C\u9762\u7A97\u4F53.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\ASUS\\Desktop\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u7528\u6237\u754C\u9762\u7A97\u4F53.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-12-24T08:06:15.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "\u5220\u9664\u76D1\u6D4B\u70B9\u4FE1\u606F.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u5220\u9664\u76D1\u6D4B\u70B9\u4FE1\u606F.cs",
+              "RelativeDocumentMoniker": "\u5220\u9664\u76D1\u6D4B\u70B9\u4FE1\u606F.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u5220\u9664\u76D1\u6D4B\u70B9\u4FE1\u606F.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "\u5220\u9664\u76D1\u6D4B\u70B9\u4FE1\u606F.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T08:06:15.751Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "\u5220\u9664\u76D1\u6D4B\u70B9\u4FE1\u606F.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u5220\u9664\u76D1\u6D4B\u70B9\u4FE1\u606F.cs",
+              "RelativeDocumentMoniker": "\u5220\u9664\u76D1\u6D4B\u70B9\u4FE1\u606F.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u5220\u9664\u76D1\u6D4B\u70B9\u4FE1\u606F.cs",
+              "RelativeToolTip": "\u5220\u9664\u76D1\u6D4B\u70B9\u4FE1\u606F.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAIwDcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T08:06:15.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "\u767B\u5F55\u7A97\u4F53.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u767B\u5F55\u7A97\u4F53.cs",
+              "RelativeDocumentMoniker": "\u767B\u5F55\u7A97\u4F53.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u767B\u5F55\u7A97\u4F53.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "\u767B\u5F55\u7A97\u4F53.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T08:06:15.743Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "\u7528\u6237\u7BA1\u7406\u754C\u9762.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u7528\u6237\u7BA1\u7406\u754C\u9762.cs",
+              "RelativeDocumentMoniker": "\u7528\u6237\u7BA1\u7406\u754C\u9762.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u7528\u6237\u7BA1\u7406\u754C\u9762.cs",
+              "RelativeToolTip": "\u7528\u6237\u7BA1\u7406\u754C\u9762.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwCYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-12-24T08:06:15.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "\u7528\u6237\u7BA1\u7406\u754C\u9762.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u7528\u6237\u7BA1\u7406\u754C\u9762.cs",
+              "RelativeDocumentMoniker": "\u7528\u6237\u7BA1\u7406\u754C\u9762.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u7528\u6237\u7BA1\u7406\u754C\u9762.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\ASUS\\Desktop\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u7528\u6237\u7BA1\u7406\u754C\u9762.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-12-24T08:06:15.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "\u67E5\u770B\u76D1\u6D4B\u70B9\u4FE1\u606F.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u67E5\u770B\u76D1\u6D4B\u70B9\u4FE1\u606F.cs",
+              "RelativeDocumentMoniker": "\u67E5\u770B\u76D1\u6D4B\u70B9\u4FE1\u606F.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u67E5\u770B\u76D1\u6D4B\u70B9\u4FE1\u606F.cs",
+              "RelativeToolTip": "\u67E5\u770B\u76D1\u6D4B\u70B9\u4FE1\u606F.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAkwFEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-12-24T08:06:15.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "\u5386\u53F2\u6570\u636E\u7BA1\u7406\u754C\u9762.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u5386\u53F2\u6570\u636E\u7BA1\u7406\u754C\u9762.cs",
+              "RelativeDocumentMoniker": "\u5386\u53F2\u6570\u636E\u7BA1\u7406\u754C\u9762.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u5386\u53F2\u6570\u636E\u7BA1\u7406\u754C\u9762.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\ASUS\\Desktop\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u5386\u53F2\u6570\u636E\u7BA1\u7406\u754C\u9762.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-12-24T08:06:15.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "\u67E5\u770B\u76D1\u6D4B\u70B9\u4FE1\u606F.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u67E5\u770B\u76D1\u6D4B\u70B9\u4FE1\u606F.cs",
+              "RelativeDocumentMoniker": "\u67E5\u770B\u76D1\u6D4B\u70B9\u4FE1\u606F.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u67E5\u770B\u76D1\u6D4B\u70B9\u4FE1\u606F.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\ASUS\\Desktop\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u67E5\u770B\u76D1\u6D4B\u70B9\u4FE1\u606F.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-12-24T08:06:15.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "\u5386\u53F2\u6570\u636E\u7BA1\u7406\u754C\u9762.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u5386\u53F2\u6570\u636E\u7BA1\u7406\u754C\u9762.cs",
+              "RelativeDocumentMoniker": "\u5386\u53F2\u6570\u636E\u7BA1\u7406\u754C\u9762.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u5386\u53F2\u6570\u636E\u7BA1\u7406\u754C\u9762.cs",
+              "RelativeToolTip": "\u5386\u53F2\u6570\u636E\u7BA1\u7406\u754C\u9762.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-12-24T08:06:15.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "\u7528\u6237\u754C\u9762\u7A97\u4F53.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u7528\u6237\u754C\u9762\u7A97\u4F53.cs",
+              "RelativeDocumentMoniker": "\u7528\u6237\u754C\u9762\u7A97\u4F53.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u7528\u6237\u754C\u9762\u7A97\u4F53.cs",
+              "RelativeToolTip": "\u7528\u6237\u754C\u9762\u7A97\u4F53.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAhwC0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-12-24T08:06:15.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "\u76D1\u6D4B\u70B9\u7BA1\u7406\u754C\u9762.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u76D1\u6D4B\u70B9\u7BA1\u7406\u754C\u9762.cs",
+              "RelativeDocumentMoniker": "\u76D1\u6D4B\u70B9\u7BA1\u7406\u754C\u9762.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u76D1\u6D4B\u70B9\u7BA1\u7406\u754C\u9762.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\ASUS\\Desktop\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u76D1\u6D4B\u70B9\u7BA1\u7406\u754C\u9762.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-12-24T08:06:15.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "\u5220\u9664\u7528\u6237\u4FE1\u606F\u7A97\u4F53.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u5220\u9664\u7528\u6237\u4FE1\u606F\u7A97\u4F53.cs",
+              "RelativeDocumentMoniker": "\u5220\u9664\u7528\u6237\u4FE1\u606F\u7A97\u4F53.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u5220\u9664\u7528\u6237\u4FE1\u606F\u7A97\u4F53.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\ASUS\\Desktop\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u5220\u9664\u7528\u6237\u4FE1\u606F\u7A97\u4F53.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-12-24T08:06:15.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "\u4FEE\u6539\u76D1\u6D4B\u70B9\u4FE1\u606F\u754C\u9762.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u4FEE\u6539\u76D1\u6D4B\u70B9\u4FE1\u606F\u754C\u9762.cs",
+              "RelativeDocumentMoniker": "\u4FEE\u6539\u76D1\u6D4B\u70B9\u4FE1\u606F\u754C\u9762.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u4FEE\u6539\u76D1\u6D4B\u70B9\u4FE1\u606F\u754C\u9762.cs",
+              "RelativeToolTip": "\u4FEE\u6539\u76D1\u6D4B\u70B9\u4FE1\u606F\u754C\u9762.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAADgv0EAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-12-24T08:06:15.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "\u6DFB\u52A0\u76D1\u6D4B\u70B9\u4FE1\u606F\u754C\u9762.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u6DFB\u52A0\u76D1\u6D4B\u70B9\u4FE1\u606F\u754C\u9762.cs",
+              "RelativeDocumentMoniker": "\u6DFB\u52A0\u76D1\u6D4B\u70B9\u4FE1\u606F\u754C\u9762.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u6DFB\u52A0\u76D1\u6D4B\u70B9\u4FE1\u606F\u754C\u9762.cs",
+              "RelativeToolTip": "\u6DFB\u52A0\u76D1\u6D4B\u70B9\u4FE1\u606F\u754C\u9762.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAADgv1IAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-12-24T08:06:15.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "\u6DFB\u52A0\u76D1\u6D4B\u70B9\u4FE1\u606F\u754C\u9762.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u6DFB\u52A0\u76D1\u6D4B\u70B9\u4FE1\u606F\u754C\u9762.cs",
+              "RelativeDocumentMoniker": "\u6DFB\u52A0\u76D1\u6D4B\u70B9\u4FE1\u606F\u754C\u9762.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u6DFB\u52A0\u76D1\u6D4B\u70B9\u4FE1\u606F\u754C\u9762.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\ASUS\\Desktop\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u6DFB\u52A0\u76D1\u6D4B\u70B9\u4FE1\u606F\u754C\u9762.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-12-24T08:06:15.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "\u5220\u9664\u7528\u6237\u4FE1\u606F\u7A97\u4F53.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u5220\u9664\u7528\u6237\u4FE1\u606F\u7A97\u4F53.cs",
+              "RelativeDocumentMoniker": "\u5220\u9664\u7528\u6237\u4FE1\u606F\u7A97\u4F53.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u5220\u9664\u7528\u6237\u4FE1\u606F\u7A97\u4F53.cs",
+              "RelativeToolTip": "\u5220\u9664\u7528\u6237\u4FE1\u606F\u7A97\u4F53.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAhwEkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-12-24T08:06:15.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "\u4FEE\u6539\u7528\u6237\u4FE1\u606F\u754C\u9762.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u4FEE\u6539\u7528\u6237\u4FE1\u606F\u754C\u9762.cs",
+              "RelativeDocumentMoniker": "\u4FEE\u6539\u7528\u6237\u4FE1\u606F\u754C\u9762.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u4FEE\u6539\u7528\u6237\u4FE1\u606F\u754C\u9762.cs",
+              "RelativeToolTip": "\u4FEE\u6539\u7528\u6237\u4FE1\u606F\u754C\u9762.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAApwE4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-12-24T08:06:15.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "\u4FEE\u6539\u76D1\u6D4B\u70B9\u4FE1\u606F\u754C\u9762.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u4FEE\u6539\u76D1\u6D4B\u70B9\u4FE1\u606F\u754C\u9762.cs",
+              "RelativeDocumentMoniker": "\u4FEE\u6539\u76D1\u6D4B\u70B9\u4FE1\u606F\u754C\u9762.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u4FEE\u6539\u76D1\u6D4B\u70B9\u4FE1\u606F\u754C\u9762.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\ASUS\\Desktop\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u4FEE\u6539\u76D1\u6D4B\u70B9\u4FE1\u606F\u754C\u9762.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-12-24T08:06:15.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "\u521B\u5EFA\u7528\u6237\u754C\u9762.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u521B\u5EFA\u7528\u6237\u754C\u9762.cs",
+              "RelativeDocumentMoniker": "\u521B\u5EFA\u7528\u6237\u754C\u9762.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u521B\u5EFA\u7528\u6237\u754C\u9762.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\ASUS\\Desktop\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u521B\u5EFA\u7528\u6237\u754C\u9762.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-12-24T08:06:15.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "\u76D1\u6D4B\u70B9\u7BA1\u7406\u754C\u9762.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u76D1\u6D4B\u70B9\u7BA1\u7406\u754C\u9762.cs",
+              "RelativeDocumentMoniker": "\u76D1\u6D4B\u70B9\u7BA1\u7406\u754C\u9762.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\\u4EF2\u607A\\University-study-documents\\\u4F5C\u4E1A\u4EE5\u53CA\u91CD\u8981\u6587\u4EF6\\\u5927\u4E09\\\u5927\u4E09\u4E0A\\\u5DE5\u7A0B\u6570\u636E\u5E93\\\u8BFE\u7A0B\u8BBE\u8BA1\\\u9AD8\u7EA7\u7A0B\u5E8F\u4E0E\u6570\u636E\u5E93\u8BFE\u7A0B\u8BBE\u8BA1\u4EFB\u52A1\u4E66\uFF082023\u5E7412\u6708\uFF09(1)\\feng\\database_design\\\u76D1\u6D4B\u70B9\u7BA1\u7406\u754C\u9762.cs",
+              "RelativeToolTip": "\u76D1\u6D4B\u70B9\u7BA1\u7406\u754C\u9762.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAswBEAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-12-24T08:06:15.753Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
