@@ -214,12 +214,12 @@ Section Cross References
     main.o(i.main) refers to key.o(i.Alarm_Clock) for Alarm_Clock
     main.o(i.main) refers to key.o(i.Alarm_Ring) for Alarm_Ring
     main.o(i.main) refers to oled.o(i.OLED_ShowNum) for OLED_ShowNum
-    main.o(i.main) refers to stepper_motors.o(i.StepMotor_Run) for StepMotor_Run
     main.o(i.main) refers to stm32f10x_rtc.o(i.RTC_GetDivider) for RTC_GetDivider
     main.o(i.main) refers to dflt_clz.o(x$fpl$dfltu) for __aeabi_ui2d
     main.o(i.main) refers to ddiv.o(x$fpl$ddiv) for __aeabi_ddiv
     main.o(i.main) refers to dmul.o(x$fpl$dmul) for __aeabi_dmul
     main.o(i.main) refers to dfixu.o(x$fpl$dfixu) for __aeabi_d2uiz
+    main.o(i.main) refers to stepper_motors.o(i.StepMotor_Run) for StepMotor_Run
     main.o(i.main) refers to key.o(.data) for Reduce_Mode
     main.o(i.main) refers to rtc_clock.o(.data) for MyRTC_Time
     main.o(i.main) refers to main.o(.data) for step
@@ -1047,16 +1047,16 @@ Image Symbol Table
     i.SystemInit                             0x08001574   Section        0  system_stm32f10x.o(i.SystemInit)
     i.UsageFault_Handler                     0x080015d4   Section        0  stm32f10x_it.o(i.UsageFault_Handler)
     i.main                                   0x080015d8   Section        0  main.o(i.main)
-    x$fpl$ddiv                               0x080018c4   Section      688  ddiv.o(x$fpl$ddiv)
-    ddiv_entry                               0x080018cb   Thumb Code     0  ddiv.o(x$fpl$ddiv)
-    x$fpl$dfixu                              0x08001b74   Section       90  dfixu.o(x$fpl$dfixu)
-    x$fpl$dfltu                              0x08001bce   Section       38  dflt_clz.o(x$fpl$dfltu)
-    x$fpl$dmul                               0x08001bf4   Section      340  dmul.o(x$fpl$dmul)
-    x$fpl$dnaninf                            0x08001d48   Section      156  dnaninf.o(x$fpl$dnaninf)
-    x$fpl$dretinf                            0x08001de4   Section       12  dretinf.o(x$fpl$dretinf)
-    .constdata                               0x08001df0   Section     1520  oled.o(.constdata)
-    x$fpl$usenofp                            0x08001df0   Section        0  usenofp.o(x$fpl$usenofp)
-    .constdata                               0x080023e0   Section       12  _monlen.o(.constdata)
+    x$fpl$ddiv                               0x0800197c   Section      688  ddiv.o(x$fpl$ddiv)
+    ddiv_entry                               0x08001983   Thumb Code     0  ddiv.o(x$fpl$ddiv)
+    x$fpl$dfixu                              0x08001c2c   Section       90  dfixu.o(x$fpl$dfixu)
+    x$fpl$dfltu                              0x08001c86   Section       38  dflt_clz.o(x$fpl$dfltu)
+    x$fpl$dmul                               0x08001cac   Section      340  dmul.o(x$fpl$dmul)
+    x$fpl$dnaninf                            0x08001e00   Section      156  dnaninf.o(x$fpl$dnaninf)
+    x$fpl$dretinf                            0x08001e9c   Section       12  dretinf.o(x$fpl$dretinf)
+    .constdata                               0x08001ea8   Section     1520  oled.o(.constdata)
+    x$fpl$usenofp                            0x08001ea8   Section        0  usenofp.o(x$fpl$usenofp)
+    .constdata                               0x08002498   Section       12  _monlen.o(.constdata)
     .data                                    0x20000000   Section        3  key.o(.data)
     lock                                     0x20000002   Data           1  key.o(.data)
     .data                                    0x20000004   Section       12  rtc_clock.o(.data)
@@ -1285,22 +1285,22 @@ Image Symbol Table
     SysTick_Handler                          0x08001571   Thumb Code     2  stm32f10x_it.o(i.SysTick_Handler)
     SystemInit                               0x08001575   Thumb Code    78  system_stm32f10x.o(i.SystemInit)
     UsageFault_Handler                       0x080015d5   Thumb Code     4  stm32f10x_it.o(i.UsageFault_Handler)
-    main                                     0x080015d9   Thumb Code   598  main.o(i.main)
-    __aeabi_ddiv                             0x080018c5   Thumb Code     0  ddiv.o(x$fpl$ddiv)
-    _ddiv                                    0x080018c5   Thumb Code   552  ddiv.o(x$fpl$ddiv)
-    __aeabi_d2uiz                            0x08001b75   Thumb Code     0  dfixu.o(x$fpl$dfixu)
-    _dfixu                                   0x08001b75   Thumb Code    90  dfixu.o(x$fpl$dfixu)
-    __aeabi_ui2d                             0x08001bcf   Thumb Code     0  dflt_clz.o(x$fpl$dfltu)
-    _dfltu                                   0x08001bcf   Thumb Code    38  dflt_clz.o(x$fpl$dfltu)
-    __aeabi_dmul                             0x08001bf5   Thumb Code     0  dmul.o(x$fpl$dmul)
-    _dmul                                    0x08001bf5   Thumb Code   332  dmul.o(x$fpl$dmul)
-    __fpl_dnaninf                            0x08001d49   Thumb Code   156  dnaninf.o(x$fpl$dnaninf)
-    __fpl_dretinf                            0x08001de5   Thumb Code    12  dretinf.o(x$fpl$dretinf)
-    OLED_F8x16                               0x08001df0   Data        1520  oled.o(.constdata)
-    __I$use$fp                               0x08001df0   Number         0  usenofp.o(x$fpl$usenofp)
-    _monlen                                  0x080023e0   Data          12  _monlen.o(.constdata)
-    Region$$Table$$Base                      0x080023ec   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x0800240c   Number         0  anon$$obj.o(Region$$Table)
+    main                                     0x080015d9   Thumb Code   782  main.o(i.main)
+    __aeabi_ddiv                             0x0800197d   Thumb Code     0  ddiv.o(x$fpl$ddiv)
+    _ddiv                                    0x0800197d   Thumb Code   552  ddiv.o(x$fpl$ddiv)
+    __aeabi_d2uiz                            0x08001c2d   Thumb Code     0  dfixu.o(x$fpl$dfixu)
+    _dfixu                                   0x08001c2d   Thumb Code    90  dfixu.o(x$fpl$dfixu)
+    __aeabi_ui2d                             0x08001c87   Thumb Code     0  dflt_clz.o(x$fpl$dfltu)
+    _dfltu                                   0x08001c87   Thumb Code    38  dflt_clz.o(x$fpl$dfltu)
+    __aeabi_dmul                             0x08001cad   Thumb Code     0  dmul.o(x$fpl$dmul)
+    _dmul                                    0x08001cad   Thumb Code   332  dmul.o(x$fpl$dmul)
+    __fpl_dnaninf                            0x08001e01   Thumb Code   156  dnaninf.o(x$fpl$dnaninf)
+    __fpl_dretinf                            0x08001e9d   Thumb Code    12  dretinf.o(x$fpl$dretinf)
+    OLED_F8x16                               0x08001ea8   Data        1520  oled.o(.constdata)
+    __I$use$fp                               0x08001ea8   Number         0  usenofp.o(x$fpl$usenofp)
+    _monlen                                  0x08002498   Data          12  _monlen.o(.constdata)
+    Region$$Table$$Base                      0x080024a4   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x080024c4   Number         0  anon$$obj.o(Region$$Table)
     SetMode                                  0x20000000   Data           1  key.o(.data)
     Reduce_Mode                              0x20000001   Data           1  key.o(.data)
     MyRTC_Time                               0x20000004   Data          12  rtc_clock.o(.data)
@@ -1317,9 +1317,9 @@ Memory Map of the image
 
   Image Entry point : 0x080000ed
 
-  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x00002420, Max: 0x00010000, ABSOLUTE)
+  Load Region LR_IROM1 (Base: 0x08000000, Size: 0x000024d8, Max: 0x00010000, ABSOLUTE)
 
-    Execution Region ER_IROM1 (Base: 0x08000000, Size: 0x0000240c, Max: 0x00010000, ABSOLUTE)
+    Execution Region ER_IROM1 (Base: 0x08000000, Size: 0x000024c4, Max: 0x00010000, ABSOLUTE)
 
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -1453,17 +1453,17 @@ Memory Map of the image
     0x08001572   0x00000002   PAD
     0x08001574   0x00000060   Code   RO           27    i.SystemInit        system_stm32f10x.o
     0x080015d4   0x00000004   Code   RO         3550    i.UsageFault_Handler  stm32f10x_it.o
-    0x080015d8   0x000002ec   Code   RO         3504    i.main              main.o
-    0x080018c4   0x000002b0   Code   RO         3619    x$fpl$ddiv          fz_ws.l(ddiv.o)
-    0x08001b74   0x0000005a   Code   RO         3622    x$fpl$dfixu         fz_ws.l(dfixu.o)
-    0x08001bce   0x00000026   Code   RO         3626    x$fpl$dfltu         fz_ws.l(dflt_clz.o)
-    0x08001bf4   0x00000154   Code   RO         3632    x$fpl$dmul          fz_ws.l(dmul.o)
-    0x08001d48   0x0000009c   Code   RO         3638    x$fpl$dnaninf       fz_ws.l(dnaninf.o)
-    0x08001de4   0x0000000c   Code   RO         3640    x$fpl$dretinf       fz_ws.l(dretinf.o)
-    0x08001df0   0x00000000   Code   RO         3642    x$fpl$usenofp       fz_ws.l(usenofp.o)
-    0x08001df0   0x000005f0   Data   RO         3346    .constdata          oled.o
-    0x080023e0   0x0000000c   Data   RO         3635    .constdata          c_w.l(_monlen.o)
-    0x080023ec   0x00000020   Data   RO         3796    Region$$Table       anon$$obj.o
+    0x080015d8   0x000003a4   Code   RO         3504    i.main              main.o
+    0x0800197c   0x000002b0   Code   RO         3619    x$fpl$ddiv          fz_ws.l(ddiv.o)
+    0x08001c2c   0x0000005a   Code   RO         3622    x$fpl$dfixu         fz_ws.l(dfixu.o)
+    0x08001c86   0x00000026   Code   RO         3626    x$fpl$dfltu         fz_ws.l(dflt_clz.o)
+    0x08001cac   0x00000154   Code   RO         3632    x$fpl$dmul          fz_ws.l(dmul.o)
+    0x08001e00   0x0000009c   Code   RO         3638    x$fpl$dnaninf       fz_ws.l(dnaninf.o)
+    0x08001e9c   0x0000000c   Code   RO         3640    x$fpl$dretinf       fz_ws.l(dretinf.o)
+    0x08001ea8   0x00000000   Code   RO         3642    x$fpl$usenofp       fz_ws.l(usenofp.o)
+    0x08001ea8   0x000005f0   Data   RO         3346    .constdata          oled.o
+    0x08002498   0x0000000c   Data   RO         3635    .constdata          c_w.l(_monlen.o)
+    0x080024a4   0x00000020   Data   RO         3796    Region$$Table       anon$$obj.o
 
 
     Execution Region RW_IRAM1 (Base: 0x20000000, Size: 0x000006b0, Max: 0x00005000, ABSOLUTE)
@@ -1494,7 +1494,7 @@ Image component sizes
          0          0          0          0          0       4528   core_cm3.o
         70          0          0          0          0        918   delay.o
       1564        118          0          3         12       5254   key.o
-       748        150          0          1          0        858   main.o
+       932        150          0          1          0        922   main.o
          0          0          0          0          0     201688   misc.o
        814         22       1520          0          0       7437   oled.o
        290         10          0         12          0       2167   rtc_clock.o
@@ -1509,7 +1509,7 @@ Image component sizes
        328         28          0          0          0      10173   system_stm32f10x.o
 
     ----------------------------------------------------------------------
-      5032        466       1788         20       1548     261819   Object Totals
+      5216        466       1788         20       1548     261883   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         10          0          0          4          0          0   (incl. Padding)
 
@@ -1572,15 +1572,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      7428        664       1800         20       1692     259711   Grand Totals
-      7428        664       1800         20       1692     259711   ELF Image Totals
-      7428        664       1800         20          0          0   ROM Totals
+      7612        664       1800         20       1692     259775   Grand Totals
+      7612        664       1800         20       1692     259775   ELF Image Totals
+      7612        664       1800         20          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                 9228 (   9.01kB)
+    Total RO  Size (Code + RO Data)                 9412 (   9.19kB)
     Total RW  Size (RW Data + ZI Data)              1712 (   1.67kB)
-    Total ROM Size (Code + RO Data + RW Data)       9248 (   9.03kB)
+    Total ROM Size (Code + RO Data + RW Data)       9432 (   9.21kB)
 
 ==============================================================================
 

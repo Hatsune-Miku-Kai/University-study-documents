@@ -23,18 +23,22 @@ void StepMotor_Run(uint8_t step) {	//4-1-4
 		
 		case 0 :
 			MOTOR_A_LOW;MOTOR_B_HIGH;MOTOR_C_HIGH;MOTOR_D_LOW;	//1
+			Delay_ms(1);
 		break;
 		
 		case 1 :
 			MOTOR_A_LOW;MOTOR_B_LOW;MOTOR_C_HIGH;MOTOR_D_HIGH;	//2
+			Delay_ms(1);
 		break;
 		
 		case 2 :
 			MOTOR_A_HIGH;MOTOR_B_LOW;MOTOR_C_LOW;MOTOR_D_HIGH;	//3
+			Delay_ms(1);
 		break;
 		
 		case 3 :
 			MOTOR_A_HIGH;MOTOR_B_HIGH;MOTOR_C_LOW;MOTOR_D_LOW;	//4
-		break;		
+			Delay_ms(1);
+		break;			
     }
 }
