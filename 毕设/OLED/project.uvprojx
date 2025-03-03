@@ -327,10 +327,10 @@
             <uThumb>0</uThumb>
             <uSurpInc>0</uSurpInc>
             <uC99>1</uC99>
-            <uGnu>1</uGnu>
+            <uGnu>0</uGnu>
             <useXO>0</useXO>
-            <v6Lang>1</v6Lang>
-            <v6LangP>1</v6LangP>
+            <v6Lang>3</v6Lang>
+            <v6LangP>3</v6LangP>
             <vShortEn>1</vShortEn>
             <vShortWch>1</vShortWch>
             <v6Lto>0</v6Lto>
@@ -353,7 +353,7 @@
             <NoWarn>0</NoWarn>
             <uSurpInc>0</uSurpInc>
             <useXO>0</useXO>
-            <ClangAsOpt>4</ClangAsOpt>
+            <ClangAsOpt>1</ClangAsOpt>
             <VariousControls>
               <MiscControls></MiscControls>
               <Define></Define>
@@ -680,16 +680,6 @@
           <GroupName>Hardware</GroupName>
           <Files>
             <File>
-              <FileName>LED.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Hardware\LED.c</FilePath>
-            </File>
-            <File>
-              <FileName>LED.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Hardware\LED.h</FilePath>
-            </File>
-            <File>
               <FileName>Key.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Hardware\Key.c</FilePath>
@@ -708,16 +698,6 @@
               <FileName>Buzzer.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Hardware\Buzzer.h</FilePath>
-            </File>
-            <File>
-              <FileName>LightSensor.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Hardware\LightSensor.c</FilePath>
-            </File>
-            <File>
-              <FileName>LightSensor.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Hardware\LightSensor.h</FilePath>
             </File>
             <File>
               <FileName>OLED.c</FileName>
@@ -753,6 +733,16 @@
               <FileName>Rtc_Clock.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\Hardware\Rtc_Clock.h</FilePath>
+            </File>
+            <File>
+              <FileName>Stepper_motors.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Hardware\Stepper_motors.c</FilePath>
+            </File>
+            <File>
+              <FileName>Stepper_motors.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Hardware\Stepper_motors.h</FilePath>
             </File>
           </Files>
         </Group>

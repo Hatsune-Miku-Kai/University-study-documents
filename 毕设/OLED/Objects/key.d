@@ -30,3 +30,6 @@
 .\objects\key.o: .\Libary\misc.h
 .\objects\key.o: .\System\Delay.h
 .\objects\key.o: Hardware\Rtc_Clock.h
+.\objects\key.o: Hardware\Key.h
+.\objects\key.o: Hardware\Buzzer.h
+.\objects\key.o: D:\Keil_V5.14\ARM\ARMCC\Bin\..\include\time.h

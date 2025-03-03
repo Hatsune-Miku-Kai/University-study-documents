@@ -34,3 +34,5 @@
 .\objects\main.o: .\System\Delay.h
 .\objects\main.o: .\Hardware\Rtc_Clock.h
 .\objects\main.o: .\Hardware\Key.h
+.\objects\main.o: .\Hardware\Buzzer.h
+.\objects\main.o: .\Hardware\Stepper_motors.h
