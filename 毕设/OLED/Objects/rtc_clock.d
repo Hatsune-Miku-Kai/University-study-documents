@@ -1,7 +1,7 @@
 .\objects\rtc_clock.o: Hardware\Rtc_Clock.c
 .\objects\rtc_clock.o: .\Start\stm32f10x.h
 .\objects\rtc_clock.o: .\Start\core_cm3.h
-.\objects\rtc_clock.o: D:\Keil_V5.14\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\rtc_clock.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\rtc_clock.o: .\Start\system_stm32f10x.h
 .\objects\rtc_clock.o: .\User\stm32f10x_conf.h
 .\objects\rtc_clock.o: .\Libary\stm32f10x_adc.h
@@ -28,4 +28,4 @@
 .\objects\rtc_clock.o: .\Libary\stm32f10x_usart.h
 .\objects\rtc_clock.o: .\Libary\stm32f10x_wwdg.h
 .\objects\rtc_clock.o: .\Libary\misc.h
-.\objects\rtc_clock.o: D:\Keil_V5.14\ARM\ARMCC\Bin\..\include\time.h
+.\objects\rtc_clock.o: D:\Keil5\ARM\ARMCC\Bin\..\include\time.h

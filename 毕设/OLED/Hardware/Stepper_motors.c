@@ -37,5 +37,4 @@ void StepMotor_Run(uint8_t step) {	//4-1-4
 			MOTOR_A_HIGH;MOTOR_B_HIGH;MOTOR_C_LOW;MOTOR_D_LOW;	//4
 		break;		
     }
-	Delay_ms(1);
 }

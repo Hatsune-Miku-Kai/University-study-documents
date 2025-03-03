@@ -1,7 +1,7 @@
 .\objects\stepper_motors.o: Hardware\Stepper_motors.c
 .\objects\stepper_motors.o: .\Start\stm32f10x.h
 .\objects\stepper_motors.o: .\Start\core_cm3.h
-.\objects\stepper_motors.o: D:\Keil_V5.14\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\stepper_motors.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\stepper_motors.o: .\Start\system_stm32f10x.h
 .\objects\stepper_motors.o: .\User\stm32f10x_conf.h
 .\objects\stepper_motors.o: .\Libary\stm32f10x_adc.h
