@@ -33,6 +33,7 @@
 ".\objects\pwm.o"
 ".\objects\rtc_clock.o"
 ".\objects\stepper_motors.o"
+".\objects\tim.o"
 ".\objects\main.o"
 ".\objects\stm32f10x_it.o"
 --strict --scatter ".\Objects\project.sct"

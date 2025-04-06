@@ -1,10 +1,10 @@
 #ifndef	__STEPPER_MOTOR
 #define __STEPPER_MOTOR
-
+#include <stdint.h>
 void Motor_Init(void);
 void StepMotor_Run_Music(uint8_t step);
 void StepMotor_Run_Mode(uint8_t step);
-
+void MOTOR_Angle(uint16_t angle);
 //extern const uint8_t stepSequence[4];
 #endif
 

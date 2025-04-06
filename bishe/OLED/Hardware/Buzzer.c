@@ -25,7 +25,7 @@ void Buzzer_ON(void)
 
 void Buzzer_OFF(void)
 {
- GPIO_SetBits(GPIOB,GPIO_Pin_3);
+	GPIO_SetBits(GPIOB,GPIO_Pin_4);
 }
 
 

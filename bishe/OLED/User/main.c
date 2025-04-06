@@ -6,18 +6,42 @@
 #include "Rtc_Clock.h"
 #include "Key.h"
 #include "Stepper_motors.h"
+#include "TIM.h"
 
+/*
+//                            _ooOoo_  
+//                           o8888888o  
+//                           88" . "88  
+//                           (| -_- |)  
+//                            O\ = /O  
+//                        ____/`---'\____  
+//                      .   ' \\| |// `.  
+//                       / \\||| : |||// \  
+//                     / _||||| -:- |||||- \  
+//                       | | \\\ - /// | |  
+//                     | \_| ''\---/'' | |  
+//                      \ .-\__ `-` ___/-. /  
+//                   ___`. .' /--.--\ `. . __  
+//                ."" '< `.___\_<|>_/___.' >'"".  
+//               | | : `- \`.;`\ _ /`;.`/ - ` : | |  
+//                 \ \ `-. \_ __\ /__ _/ .-` / /  
+//         ======`-.____`-.___\_____/___.-`____.-'======  
+//                            `=---='  
+//  
+//         .............................................  
+//                  ¦ò¯ª«O¦ö             ¥ÃwuBUG 
+*/
 
-
-int8_t step = 1;
+volatile int8_t step = 0;
 
 int main(void)
 {
 	OLED_Init();
 	MyRTC_Init();
+	TIM2_Init();
+	Motor_Init(); 
 	Key_Init();
-	Motor_Init();
-	Buzzer_Init();
+
 	
 	OLED_ShowString(1,1,"Date:XXXX-XX-XX");
 	OLED_ShowString(2,1,"Time:XX:XX:XX");
@@ -26,7 +50,6 @@ int main(void)
 	
 while(1)
 {
-
 		MyRTC_ReadTime();
 		Switch_Change_Mode();
 		Key_GetNum();
@@ -97,6 +120,20 @@ while(1)
 			OLED_ShowNum(2,9,Alarm_Time[4], 2);
 			OLED_ShowNum(2,12,Alarm_Time[5], 2);
 		}
+		
+		
+		
 		OLED_ShowNum(4,6,(32767 - RTC_GetDivider()) / 32767.0 * 999,10);
 	}	
+}
+
+void TIM2_IRQHandler(void) 
+{
+    if (TIM_GetITStatus(TIM2, TIM_IT_Update) != RESET) 
+		{
+        TIM_ClearITPendingBit(TIM2, TIM_IT_Update);
+        StepMotor_Run_Music(step);        // update motor 
+        step = step % 4; 
+		step++;
+		}
 }

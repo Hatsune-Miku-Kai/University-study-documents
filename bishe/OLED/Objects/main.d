@@ -36,3 +36,4 @@
 .\objects\main.o: .\Hardware\Key.h
 .\objects\main.o: .\Hardware\Buzzer.h
 .\objects\main.o: .\Hardware\Stepper_motors.h
+.\objects\main.o: .\Hardware\TIM.h

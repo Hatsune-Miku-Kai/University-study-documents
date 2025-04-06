@@ -1,6 +1,6 @@
 #ifndef __KEY_H
 #define __KEY_H
-
+#include <stdint.h>
 void Key_GetNum(void);
 void Key_Init(void);
 void Switch_Change_Mode(void);
