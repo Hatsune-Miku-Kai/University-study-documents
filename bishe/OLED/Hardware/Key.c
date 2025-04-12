@@ -3,6 +3,7 @@
 #include "Rtc_Clock.h"
 #include "Key.h"
 #include <time.h>
+#include <string.h>
 
 
 //Identify The Revise Mode
@@ -22,7 +23,7 @@ To reduce the num of all mode
 								//Setmode     //mode to reduce
 void Reduce_Num(uint8_t mode , uint8_t arg)
 {
-	if(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_9) == 0) 
+	if(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_5) == 0) 
 	{
 			Delay_ms(200);
 			if((SetMode != ALARM_DATE) && (SetMode != ALARM_TIME))
@@ -153,39 +154,28 @@ void Reduce_Num(uint8_t mode , uint8_t arg)
 */
 void Key_Init(void)
 {
-	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA | RCC_APB2Periph_GPIOB | RCC_APB2Periph_AFIO,ENABLE);
-	GPIO_PinRemapConfig(GPIO_Remap_SWJ_JTAGDisable, ENABLE);
 	//GPIOA Key
+	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);
 	GPIO_InitTypeDef GPIO_InitStructure_A;
 	GPIO_InitStructure_A.GPIO_Mode = GPIO_Mode_IPU;
-	GPIO_InitStructure_A.GPIO_Pin = GPIO_Pin_8 | GPIO_Pin_9; //button driver pin
+	GPIO_InitStructure_A.GPIO_Pin = GPIO_Pin_1 | GPIO_Pin_2 | GPIO_Pin_3 | GPIO_Pin_4 | GPIO_Pin_5 | GPIO_Pin_6; //button driver pin
 	GPIO_Init(GPIOA,&GPIO_InitStructure_A);
 	
-	//GPIO_InitStructure_A.GPIO_Mode = GPIO_Mode_Out_PP;
-	//GPIO_InitStructure_A.GPIO_Pin = GPIO_Pin_1 | GPIO_Pin_2 | GPIO_Pin_3 | GPIO_Pin_4 | GPIO_Pin_10 | GPIO_Pin_11 | GPIO_Pin_12 | GPIO_Pin_15;//motor driver pin
-	//GPIO_InitStructure_A.GPIO_Speed=GPIO_Speed_50MHz;
-	//GPIO_Init(GPIOA,&GPIO_InitStructure_A);
+	GPIO_InitStructure_A.GPIO_Mode = GPIO_Mode_Out_PP;
+	GPIO_InitStructure_A.GPIO_Pin = GPIO_Pin_7;//motor driver pin
+	GPIO_InitStructure_A.GPIO_Speed=GPIO_Speed_50MHz;
+	GPIO_Init(GPIOA,&GPIO_InitStructure_A);
 	
 	
 	//GPIOB Key
+	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE);
 	GPIO_InitTypeDef GPIO_InitStructure_B;
-	GPIO_InitStructure_B.GPIO_Mode = GPIO_Mode_IPU;
-	GPIO_InitStructure_B.GPIO_Pin = GPIO_Pin_3 | GPIO_Pin_13 | GPIO_Pin_14 | GPIO_Pin_15;
-	GPIO_Init(GPIOB,&GPIO_InitStructure_B);
 	
 	GPIO_InitStructure_B.GPIO_Mode = GPIO_Mode_Out_PP;
-	GPIO_InitStructure_B.GPIO_Pin =  GPIO_Pin_4 | GPIO_Pin_8 | GPIO_Pin_9; //oled driver && buzzer driver pin
-	GPIO_InitStructure_B.GPIO_Speed=GPIO_Speed_50MHz;
+	GPIO_InitStructure_B.GPIO_Pin =  GPIO_Pin_0 | GPIO_Pin_1 | GPIO_Pin_10 | GPIO_Pin_11 | GPIO_Pin_12 | GPIO_Pin_13 | GPIO_Pin_14 | GPIO_Pin_15; //oled driver && buzzer driver pin
+	GPIO_InitStructure_B.GPIO_Speed = GPIO_Speed_50MHz;
 	GPIO_Init(GPIOB,&GPIO_InitStructure_B);
-	
-//	GPIO_InitStructure_B.GPIO_Mode = GPIO_Mode_IPU;
-//	GPIO_InitStructure_B.GPIO_Pin = GPIO_Pin_3;
-//	GPIO_Init(GPIOB,&GPIO_InitStructure_B);
-	
-//	GPIO_InitStructure_B.GPIO_Mode = GPIO_Mode_Out_PP;
-//	GPIO_InitStructure_B.GPIO_Pin =  GPIO_Pin_4; 
-//	GPIO_InitStructure_B.GPIO_Speed=GPIO_Speed_50MHz;
-//	GPIO_Init(GPIOB,&GPIO_InitStructure_B);
+	GPIO_SetBits(GPIOB,GPIO_Pin_15);
 	
 }
 
@@ -198,7 +188,7 @@ void Key_GetNum(void)
    //uint8_t KeyNum=0;
 	if(SetMode == DATE)
 	{
-		if(GPIO_ReadInputDataBit(GPIOB,GPIO_Pin_15)==0)
+		if(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_3)==0)
 		{
 			Reduce_Mode = MON;
 			//while(GPIO_ReadInputDataBit(GPIOB,GPIO_Pin_1)==0)
@@ -213,7 +203,7 @@ void Key_GetNum(void)
 		}
 		
 		
-		if(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_8)==0)
+		if(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_4)==0)
 		{
 			Reduce_Mode = YEAR;
 			//while(GPIO_ReadInputDataBit(GPIOB,GPIO_Pin_11)==0)
@@ -223,7 +213,7 @@ void Key_GetNum(void)
 			MyRTC_SetTime();
 		}
 		
-		if(GPIO_ReadInputDataBit(GPIOB,GPIO_Pin_14)==0)
+		if(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_2)==0)
 		{
 			Reduce_Mode = DAY;
 			//while(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_6)==0)
@@ -241,7 +231,7 @@ void Key_GetNum(void)
 
 	if(SetMode == TIME)
 	{
-		if(GPIO_ReadInputDataBit(GPIOB,GPIO_Pin_15)==0)
+		if(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_3)==0)
 		{
 			//while(GPIO_ReadInputDataBit(GPIOB,GPIO_Pin_1)==0)
 			Reduce_Mode = MIN;
@@ -253,10 +243,11 @@ void Key_GetNum(void)
 				MyRTC_Time[MIN] = 0;
 			}
 			MyRTC_SetTime();
+			MOTOR_Angle_Min(0.55);
 		}
 		
 		
-		if(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_8)==0)
+		if(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_4)==0)
 		{
 			//while(GPIO_ReadInputDataBit(GPIOB,GPIO_Pin_11)==0)
 			Reduce_Mode = HOUR;
@@ -268,9 +259,10 @@ void Key_GetNum(void)
 				MyRTC_Time[HOUR] = 0;
 			}
 			MyRTC_SetTime();
+			MOTOR_Angle_Hour(2.65);
 		}
 		
-		if(GPIO_ReadInputDataBit(GPIOB,GPIO_Pin_14)==0)
+		if(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_2)==0)
 		{
 			//while(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_6)==0)
 			Reduce_Mode = SEC;
@@ -299,7 +291,7 @@ void Alarm_Clock(void)
 		if(SetMode == ALARM_TIME)
 		{
 			
-			if(GPIO_ReadInputDataBit(GPIOB,GPIO_Pin_15)==0)
+			if(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_3)==0)
 			{
 				Reduce_Mode = MIN;
 				//while(GPIO_ReadInputDataBit(GPIOB,GPIO_Pin_1)==0)
@@ -310,7 +302,7 @@ void Alarm_Clock(void)
 			}
 			
 			
-			if(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_8)==0)
+			if(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_4)==0)
 			{
 				Reduce_Mode = HOUR;
 				//while(GPIO_ReadInputDataBit(GPIOB,GPIO_Pin_11)==0)
@@ -320,7 +312,7 @@ void Alarm_Clock(void)
 					Alarm_Time[HOUR] = 0;
 			}
 			
-			if(GPIO_ReadInputDataBit(GPIOB,GPIO_Pin_14)==0)
+			if(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_2)==0)
 			{
 				Reduce_Mode = SEC;
 				//while(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_6)==0)
@@ -345,7 +337,7 @@ void Alarm_Clock(void)
 				lock = 1;
 			}
 						
-			if(GPIO_ReadInputDataBit(GPIOB,GPIO_Pin_15)==0)
+			if(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_3)==0)
 			{
 				Reduce_Mode = MON;
 				//while(GPIO_ReadInputDataBit(GPIOB,GPIO_Pin_1)==0)
@@ -356,7 +348,7 @@ void Alarm_Clock(void)
 			}
 			
 			
-			if(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_8)==0)
+			if(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_4)==0)
 			{
 				Reduce_Mode = YEAR;
 				//while(GPIO_ReadInputDataBit(GPIOB,GPIO_Pin_11)==0)
@@ -364,7 +356,7 @@ void Alarm_Clock(void)
 				Alarm_Time[YEAR] ++;
 			}
 			
-			if(GPIO_ReadInputDataBit(GPIOB,GPIO_Pin_14)==0)
+			if(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_2)==0)
 			{
 				Reduce_Mode = DAY;
 				//while(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_6)==0)
@@ -385,7 +377,7 @@ void Alarm_Clock(void)
 void Switch_Change_Mode(void)
 {
 
-	if(GPIO_ReadInputDataBit(GPIOB,GPIO_Pin_13)==0)
+	if(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_1)==0)
 	{
 		Delay_ms(200);
 		//while(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_0)==0)
@@ -414,15 +406,8 @@ void Switch_Change_Mode(void)
 					SetMode = ALARM_TIME;
 				}
 					break;	
-				
-			case ALARM_TIME:
-				{
-					lock = 0;
-					SetMode = MUSIC;
-				}
-					break;
 			
-			case MUSIC:
+			case ALARM_TIME:
 				{
 					SetMode = 0;
 				}
@@ -453,7 +438,10 @@ void Alarm_Ring(void)
 	if((RTC_GetCounter() + (8 * 60 * 60)) == time_cnt ) 	//RTC_Getcounter function is utc time ,is utc+0,if we want buzzer ring at local time ,we need to convert to utc+8
 		Buzzer_ON();
 	
-	if(GPIO_ReadInputDataBit(GPIOB,GPIO_Pin_3) == 0)
+	if(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_6) == 0)
+	{
 		Buzzer_OFF();
+		memset(Alarm_Time, 0, sizeof(Alarm_Time));
+	}
 }
 

@@ -28,7 +28,6 @@
 .\objects\main.o: .\Libary\stm32f10x_usart.h
 .\objects\main.o: .\Libary\stm32f10x_wwdg.h
 .\objects\main.o: .\Libary\misc.h
-.\objects\main.o: .\Hardware\PWM.h
 .\objects\main.o: .\Hardware\OLED.h
 .\objects\main.o: .\System\Timer.h
 .\objects\main.o: .\System\Delay.h

@@ -19,13 +19,13 @@ void Buzzer_Init(void)
 
 void Buzzer_ON(void)
 {
-	GPIO_ResetBits(GPIOB,GPIO_Pin_4);
+	GPIO_ResetBits(GPIOB,GPIO_Pin_15);
 }
 
 
 void Buzzer_OFF(void)
 {
-	GPIO_SetBits(GPIOB,GPIO_Pin_4);
+	GPIO_SetBits(GPIOB,GPIO_Pin_15);
 }
 
 

@@ -15,6 +15,7 @@ extern int16_t Alarm_Time[];
 
 
 #include "Buzzer.h"
+#include "Stepper_motors.h"
 
 //DEFINE TIME AND DATE
 #define YEAR 0

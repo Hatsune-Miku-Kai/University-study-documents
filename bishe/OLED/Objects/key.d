@@ -32,4 +32,6 @@
 .\objects\key.o: Hardware\Rtc_Clock.h
 .\objects\key.o: Hardware\Key.h
 .\objects\key.o: Hardware\Buzzer.h
+.\objects\key.o: Hardware\Stepper_motors.h
 .\objects\key.o: D:\Keil\ARM\ARMCOMPLIER506\Bin\..\include\time.h
+.\objects\key.o: D:\Keil\ARM\ARMCOMPLIER506\Bin\..\include\string.h

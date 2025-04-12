@@ -809,7 +809,7 @@ I (.\Libary\stm32f10x_usart.h)(0x67C5AEA2)
 I (.\Libary\stm32f10x_wwdg.h)(0x67C5AEA2)
 I (.\Libary\misc.h)(0x67C5AEA2)
 F (.\System\Timer.h)(0x67C5AEA2)()
-F (.\Hardware\Key.c)(0x67EA91FE)(--c99 -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I .\Start -I .\Libary -I .\User -I .\System -I .\Hardware-ID:\Keil\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="542" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+F (.\Hardware\Key.c)(0x67FAD27D)(--c99 -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I .\Start -I .\Libary -I .\User -I .\System -I .\Hardware-ID:\Keil\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="542" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
 I (.\Start\stm32f10x.h)(0x67C5AEA2)
 I (.\Start\core_cm3.h)(0x67C5AEA2)
 I (D:\Keil\ARM\ARMCOMPLIER506\include\stdint.h)(0x5E8E3CC2)
@@ -840,11 +840,13 @@ I (.\Libary\stm32f10x_wwdg.h)(0x67C5AEA2)
 I (.\Libary\misc.h)(0x67C5AEA2)
 I (.\System\Delay.h)(0x67C5AEA2)
 I (Hardware\Rtc_Clock.h)(0x67E973B4)
-I (Hardware\Key.h)(0x67E9738A)
+I (Hardware\Key.h)(0x67FAC3F6)
 I (Hardware\Buzzer.h)(0x67C5AEA2)
+I (Hardware\Stepper_motors.h)(0x67FAC917)
 I (D:\Keil\ARM\ARMCOMPLIER506\include\time.h)(0x5E8E3CC2)
-F (.\Hardware\Key.h)(0x67E9738A)()
-F (.\Hardware\Buzzer.c)(0x67EAA2BE)(--c99 -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I .\Start -I .\Libary -I .\User -I .\System -I .\Hardware-ID:\Keil\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="542" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\buzzer.o --omf_browse .\objects\buzzer.crf --depend .\objects\buzzer.d)
+I (D:\Keil\ARM\ARMCOMPLIER506\include\string.h)(0x5E8E3CC2)
+F (.\Hardware\Key.h)(0x67FAC3F6)()
+F (.\Hardware\Buzzer.c)(0x67FAA21B)(--c99 -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I .\Start -I .\Libary -I .\User -I .\System -I .\Hardware-ID:\Keil\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="542" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\buzzer.o --omf_browse .\objects\buzzer.crf --depend .\objects\buzzer.d)
 I (.\Start\stm32f10x.h)(0x67C5AEA2)
 I (.\Start\core_cm3.h)(0x67C5AEA2)
 I (D:\Keil\ARM\ARMCOMPLIER506\include\stdint.h)(0x5E8E3CC2)
@@ -967,7 +969,7 @@ I (.\Libary\stm32f10x_wwdg.h)(0x67C5AEA2)
 I (.\Libary\misc.h)(0x67C5AEA2)
 I (D:\Keil\ARM\ARMCOMPLIER506\include\time.h)(0x5E8E3CC2)
 F (.\Hardware\Rtc_Clock.h)(0x67E973B4)()
-F (.\Hardware\Stepper_motors.c)(0x67EFADB3)(--c99 -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I .\Start -I .\Libary -I .\User -I .\System -I .\Hardware-ID:\Keil\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="542" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stepper_motors.o --omf_browse .\objects\stepper_motors.crf --depend .\objects\stepper_motors.d)
+F (.\Hardware\Stepper_motors.c)(0x67FACCA7)(--c99 -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I .\Start -I .\Libary -I .\User -I .\System -I .\Hardware-ID:\Keil\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="542" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stepper_motors.o --omf_browse .\objects\stepper_motors.crf --depend .\objects\stepper_motors.d)
 I (.\Start\stm32f10x.h)(0x67C5AEA2)
 I (.\Start\core_cm3.h)(0x67C5AEA2)
 I (D:\Keil\ARM\ARMCOMPLIER506\include\stdint.h)(0x5E8E3CC2)
@@ -997,8 +999,8 @@ I (.\Libary\stm32f10x_usart.h)(0x67C5AEA2)
 I (.\Libary\stm32f10x_wwdg.h)(0x67C5AEA2)
 I (.\Libary\misc.h)(0x67C5AEA2)
 I (.\System\Delay.h)(0x67C5AEA2)
-I (Hardware\Stepper_motors.h)(0x67EC2101)
-F (.\Hardware\Stepper_motors.h)(0x67EC2101)()
+I (Hardware\Stepper_motors.h)(0x67FAC917)
+F (.\Hardware\Stepper_motors.h)(0x67FAC917)()
 F (.\Hardware\TIM.h)(0x67E97652)()
 F (.\Hardware\TIM.c)(0x67EFADD1)(--c99 -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I .\Start -I .\Libary -I .\User -I .\System -I .\Hardware-ID:\Keil\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="542" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\tim.o --omf_browse .\objects\tim.crf --depend .\objects\tim.d)
 I (.\Start\stm32f10x.h)(0x67C5AEA2)
@@ -1030,7 +1032,7 @@ I (.\Libary\stm32f10x_usart.h)(0x67C5AEA2)
 I (.\Libary\stm32f10x_wwdg.h)(0x67C5AEA2)
 I (.\Libary\misc.h)(0x67C5AEA2)
 I (Hardware\TIM.h)(0x67E97652)
-F (.\User\main.c)(0x67EFADE0)(--c99 -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I .\Start -I .\Libary -I .\User -I .\System -I .\Hardware-ID:\Keil\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="542" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\User\main.c)(0x67FAD20B)(--c99 -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I .\Start -I .\Libary -I .\User -I .\System -I .\Hardware-ID:\Keil\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="542" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (.\Start\stm32f10x.h)(0x67C5AEA2)
 I (.\Start\core_cm3.h)(0x67C5AEA2)
 I (D:\Keil\ARM\ARMCOMPLIER506\include\stdint.h)(0x5E8E3CC2)
@@ -1059,14 +1061,13 @@ I (.\Libary\stm32f10x_tim.h)(0x67C5AEA2)
 I (.\Libary\stm32f10x_usart.h)(0x67C5AEA2)
 I (.\Libary\stm32f10x_wwdg.h)(0x67C5AEA2)
 I (.\Libary\misc.h)(0x67C5AEA2)
-I (.\Hardware\PWM.h)(0x67E9739C)
 I (.\Hardware\OLED.h)(0x67E9775A)
 I (.\System\Timer.h)(0x67C5AEA2)
 I (.\System\Delay.h)(0x67C5AEA2)
 I (.\Hardware\Rtc_Clock.h)(0x67E973B4)
-I (.\Hardware\Key.h)(0x67E9738A)
+I (.\Hardware\Key.h)(0x67FAC3F6)
 I (.\Hardware\Buzzer.h)(0x67C5AEA2)
-I (.\Hardware\Stepper_motors.h)(0x67EC2101)
+I (.\Hardware\Stepper_motors.h)(0x67FAC917)
 I (.\Hardware\TIM.h)(0x67E97652)
 F (.\User\stm32f10x_conf.h)(0x67C5AEA2)()
 F (.\User\stm32f10x_it.c)(0x67C5AEA2)(--c99 -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I .\Start -I .\Libary -I .\User -I .\System -I .\Hardware-ID:\Keil\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="542" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_it.o --omf_browse .\objects\stm32f10x_it.crf --depend .\objects\stm32f10x_it.d)
