@@ -64,6 +64,7 @@ void StepMotor_Run_Hour(uint8_t step)
 			MOTOR_A_HIGH_MODE;MOTOR_B_HIGH_MODE;MOTOR_C_HIGH_MODE;MOTOR_D_LOW_MODE;	//4
 		break;	
     }
+	Delay_ms(10);
 		if(Min_count == 60)
 		{
 			Min_count = 1;
@@ -90,6 +91,7 @@ void StepMotor_Run(uint8_t step)
 			MOTOR_A_HIGH;MOTOR_B_HIGH;MOTOR_C_HIGH;MOTOR_D_LOW;	//4
 		break;	
     }
+	Delay_ms(10);
 
 }
 
@@ -100,6 +102,7 @@ void MOTOR_Angle_Min(float angle)
 		{
 			StepMotor_Run_Min(step_min);
 			step_min = (step_min + 1) % 4;
+			Delay_ms(10);
 		}
 }
 
@@ -110,5 +113,6 @@ void MOTOR_Angle_Hour(float angle)
 		{
 			StepMotor_Run_Hour(step_hour);
 			step_hour = (step_hour + 1) % 4;
+			Delay_ms(10);
 		}
 }

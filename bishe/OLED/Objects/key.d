@@ -1,7 +1,7 @@
 .\objects\key.o: Hardware\Key.c
 .\objects\key.o: .\Start\stm32f10x.h
 .\objects\key.o: .\Start\core_cm3.h
-.\objects\key.o: D:\Keil\ARM\ARMCOMPLIER506\Bin\..\include\stdint.h
+.\objects\key.o: D:\Keil_V5.14\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\key.o: .\Start\system_stm32f10x.h
 .\objects\key.o: .\User\stm32f10x_conf.h
 .\objects\key.o: .\Libary\stm32f10x_adc.h
@@ -33,5 +33,5 @@
 .\objects\key.o: Hardware\Key.h
 .\objects\key.o: Hardware\Buzzer.h
 .\objects\key.o: Hardware\Stepper_motors.h
-.\objects\key.o: D:\Keil\ARM\ARMCOMPLIER506\Bin\..\include\time.h
-.\objects\key.o: D:\Keil\ARM\ARMCOMPLIER506\Bin\..\include\string.h
+.\objects\key.o: D:\Keil_V5.14\ARM\ARMCC\Bin\..\include\time.h
+.\objects\key.o: D:\Keil_V5.14\ARM\ARMCC\Bin\..\include\string.h

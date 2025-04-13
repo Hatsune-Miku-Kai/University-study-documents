@@ -1,7 +1,7 @@
 .\objects\tim.o: Hardware\TIM.c
 .\objects\tim.o: .\Start\stm32f10x.h
 .\objects\tim.o: .\Start\core_cm3.h
-.\objects\tim.o: D:\Keil\ARM\ARMCOMPLIER506\Bin\..\include\stdint.h
+.\objects\tim.o: D:\Keil_V5.14\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\tim.o: .\Start\system_stm32f10x.h
 .\objects\tim.o: .\User\stm32f10x_conf.h
 .\objects\tim.o: .\Libary\stm32f10x_adc.h

@@ -259,7 +259,7 @@ void Key_GetNum(void)
 				MyRTC_Time[HOUR] = 0;
 			}
 			MyRTC_SetTime();
-			MOTOR_Angle_Hour(2.65);
+			MOTOR_Angle_Hour(1.825);
 		}
 		
 		if(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_2)==0)
@@ -406,12 +406,18 @@ void Switch_Change_Mode(void)
 					SetMode = ALARM_TIME;
 				}
 					break;	
-			
 			case ALARM_TIME:
+				{
+					SetMode = MUSIC;
+				}
+					break;
+			
+			case MUSIC:
 				{
 					SetMode = 0;
 				}
 					break;
+
 				
 			default:
 					break;
