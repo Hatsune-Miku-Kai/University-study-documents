@@ -50,7 +50,7 @@ int main(void)
 	OLED_ShowNum(2,6,MyRTC_Time[3], 2);
 	OLED_ShowNum(2,9,MyRTC_Time[4], 2);
 	OLED_ShowNum(2,12,MyRTC_Time[5], 2);
-	MOTOR_Angle_Min(MyRTC_Time[4]/60);
+	MOTOR_Angle_Min(MyRTC_Time[4]/12);
 	MOTOR_Angle_Hour(MyRTC_Time[5]/12);
 
 	
