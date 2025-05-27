@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../atom_button"
+		},
+		{
+			"name": "basic_as6500",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
